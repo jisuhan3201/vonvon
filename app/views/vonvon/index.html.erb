@@ -1,0 +1,28 @@
+<div class="card text-center" style="width: 50rem;">
+  <div class="image_tag text-center">
+    <%= image_tag("vonvon.png", size: "500") %>    
+  </div>
+  <div class="card-block text-center">
+    <h4 class="card-title">신이 너를 만들때.. 너가 누군지 기억을 못해  이름 좀;;</h4>
+    <form action="result" method="POST">
+      <input type="text" name="name" placeholder="input name" />
+      <fieldset class="form-group">
+        <hr>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="1" checked>
+            Man
+          </label>
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="2">
+            Woman
+          </label>
+        </div>
+      </fieldset>
+      <button type="submit" class="btn btn-primary">알아보기</button>
+    </form>
+    
+  </div>
+</div>
